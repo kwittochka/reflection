@@ -1,0 +1,22 @@
+fc - automaticaly compare file (on command prompt) 
+git clone URL - клонировать репозиторий
+git diff file1 file2 | 1commit_id 2commit_id (or first four or more characters of the commit ID rather than pasting the entire ID)
+git config --global color.ui auto 
+git log - commit log
+git log --stat информация, какие файлы репозитория изменены и сколько изменений было (+ и - добавлены строки и удалены)
+q - exit log
+context menu on a right click on a repository folder give an oportunity to launch git bash
+git checkout commit - return to a previous version
+
+cd ~ - сделать текущей дирректорию пользователя
+Настройки не знаю, как получить
+git mv downloads/filename1 filename2 - перемещение файла расположенного в downloads с названием filename1 в текущую директорию, если не указать, в какую именно перемещать.
+Название изменяется на filename2.
+
+git config --global сcore.editor "'путь к текстовому редактору' -n -w"
+
+в файле .bash_profile (в дирректории пользователя) добавить:
+alias note="путь к notepad++" 
+ 
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
