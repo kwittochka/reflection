@@ -1,0 +1,29 @@
+ls -a - показать список файлов текущей дерриктории
+git init - create reposetory in current location
+git status - показывает, что изменено с момента предыдущего commit
+git diff без аргументов показывает изменения между working directory and staging area
+git diff --stage показывает изменения между staging area and last commit
+схема из объяснения в видео git diff revisited: 
+WORKING DIRECTORY          	 STAGING AREA  		         REPOSETORY
+					git add					git commit		commit1
+															commit2
+					
+git reset --hard - удаляет все изменения из working directory, которые еще не были добавлены в staging area
+
+не разобралась,как добавить комментарий к коммиту через файл
+git commit -m "Комментарий к коммиту"
+
+git branch - показывает все ветви 
+git branch new_branch_name - создает новую ветвь
+
+git log --graph branch1 branch2 - показывает граф перечисленных ветвей
+можно добавить -- oneline или --pretty=oneline для вывода каждого commit одной строкой
+
+git checkout - b new_branch_name =	(создание новой ветки и переключение на нее)
+git branch new_branch_name + 		(создание новой ветки)
+git checkout new_branch_name.		(переключение на ветку)
+
+git merge branch1 branch2
+
+git show commit - показывает изменения в коммите по сравнению с родительским
+git branch -d branch - удаляет ветвь 
