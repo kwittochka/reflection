@@ -1,0 +1,4 @@
+git remote - показывает удаленные репозитории, которые подключены
+git remote add repository_name URL
+git remote -v - покажет информацию о репозитории
+git push repository_name local_branch
